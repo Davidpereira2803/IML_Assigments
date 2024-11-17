@@ -300,7 +300,7 @@ def compute_values(dungeon: Dungeon) -> np.ndarray:
 
 dungeon = simple_dungeon(p_slippery=0.5)
 state_values = compute_values(dungeon)
-# dungeon.show(state_values, values=False)
+dungeon.show(state_values, values=False)
 
 # %% [markdown]
 # ### Problem 3
